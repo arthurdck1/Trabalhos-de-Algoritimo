@@ -11,11 +11,11 @@ valtotalp = 0
 valtotparcela = 0
 maiorvalorp= 0
 menorvalorv = 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
-for compra in range(4):
+for compra in range(15):
     print ('Digite o código da compra V= A vista e P= A prazo')
     codigo = input()
     print ("Digite o valor da compra")
-    valor = int(input())
+    valor = int(float())
     parcela = valor/3
     valtotal = valtotal + valor
     for bla in range(1):
